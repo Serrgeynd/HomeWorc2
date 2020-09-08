@@ -9,10 +9,9 @@ public class Task6v2 {
         int y;
         y = x % 2;
         int z;
-        {
-            if (x == (0)) {
-                System.out.println("Нулевое число");
-            }if (x > 0) {
+
+
+            if (x > 0) {
                 System.out.println("Положительное  число");
             }if  (x < 0)  {
                 System.out.println("Отрицательное число");
@@ -20,7 +19,8 @@ public class Task6v2 {
                 System.out.println("Нечетное число");
             }if ((x != 0) & (y == 0)) {
                 System.out.println("Четное число");
-            }
+            }if (x==0){
+            System.out.println("Нулевое число");
         }
 
 
