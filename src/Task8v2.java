@@ -24,7 +24,7 @@ public class Task8v2 {
 
         System.out.println("Cумма положительных элементов:" + sumplus);
         System.out.println("Cумма отрицательных четных элементов:" + summinus);
-        System.out.println("Количество положительных элементов:" + plus);
+        System.out.println("Количество  положительных элементов:" + plus);
         System.out.println("Среднее арифметическое отрицательных чисел:" + middleminus / minus);
     }
 
