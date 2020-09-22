@@ -8,10 +8,12 @@ public class Task3 {
         Scanner scanner = new Scanner(System.in);
         int x;
         x = scanner.nextInt();
-        {
-            if (x > 0)
-                System.out.println(x + 1);
-            else System.out.println(x);
+        if (x > 0) {
+            System.out.println(x + 1);
+        } else {
+            System.out.println(x);
         }
     }
 }
+
+

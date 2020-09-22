@@ -10,21 +10,32 @@ public class Task6 {
         x = scanner.nextInt();
         int y;
         y = x % 2;
-        int z;
         {
-            if (x == (0)) {
-                System.out.println("Нулевое число");
-            } else if ((x > 0) & (y == 0)) {
-                System.out.println("Положительное четное число");
-            } else if ((x > 0) & (y != 0)) {
-                System.out.println("Положительное нечетное число");
-            } else if ((x < 0) & (y != 0)) {
-                System.out.println("Отрицательное нечетное число");
-            } else if ((x < 0) & (y == 0)) {
-                System.out.println("Отрицательное четное число");
+            if (x == 0) {
+
+                System.out.println("нулевое число");
+                return;
             }
         }
+        {
+            if (x > 0) {
+                System.out.println("положительное ");
+            } else {
+                System.out.println("отрицательное ");
+            }
+            {
+                if (y == 0) {
+                    System.out.println("четное ");
+                } else {
+                    System.out.println("нечетное ");
 
-
+                }
+                System.out.println("число");
+            }
+        }
     }
 }
+
+
+
+
